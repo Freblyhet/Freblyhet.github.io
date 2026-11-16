@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adam Blyberg</title>
+<meta name="description" content="Adam Blyberg — Physics and Computer Science undergraduate at Skidmore College working on neural quantum states for quantum many-body systems.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --accent: #1a6b4f; --rule: #d8dee4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --accent: #4fc39a; --rule: #30363d; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.6 Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3.5rem 1rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+  .tagline { color: var(--muted); margin: 0 0 1rem; }
+  .links { display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; margin: 0 0 2.5rem; padding: 0; list-style: none;
+           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: .92rem; }
+  h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
+       border-bottom: 1px solid var(--rule); padding-bottom: .3rem; margin: 2.5rem 0 1rem;
+       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .item { margin: 0 0 1.25rem; }
+  .item-title { font-weight: 600; }
+  .meta { color: var(--muted); font-size: .92rem; }
+  ul.plain { padding-left: 1.2rem; margin: .3rem 0 0; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Adam Blyberg</h1>
+  <p class="tagline">Physics &amp; Computer Science, Skidmore College (B.S. 2027)</p>
+  <ul class="links">
+    <li><a href="mailto:adamblyberg@skidmore.edu">adamblyberg@skidmore.edu</a></li>
+    <li><a href="https://github.com/Freblyhet">GitHub</a></li>
+  </ul>
+
+  <p>I'm an undergraduate double-majoring in physics and computer science. My research uses
+  neural networks to study quantum many-body systems, in particular neural quantum states
+  that build the symmetries of a model directly into the network. I work with
+  Prof. Anthony Ashmore in the Skidmore physics department.</p>
+
+  <h2>Research</h2>
+  <div class="item">
+    <div class="item-title">Phases of Quantum <i>D<sub>N</sub></i> Theories via Neural Quantum States</div>
+    <div class="meta">Faculty-Student Summer Research Program, Summer 2026</div>
+    <ul class="plain">
+      <li>Built a <i>D</i><sub>3</sub>&times;<i>D</i><sub>3</sub>-equivariant network that matches exact
+        ground-state energies to within 10<sup>&minus;5</sup>%, where standard architectures reach ~69% error.</li>
+      <li>Introduced a learnable sign gate that resolves the model's sign problem.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="item-title">Machine Learning Approaches to Quantum Many-Body Physics</div>
+    <div class="meta">Spring – Fall 2025</div>
+    <ul class="plain">
+      <li>Trained neural networks to locate phase transitions in 2D quantum clock models.</li>
+    </ul>
+  </div>
+
+  <h2>Presentations</h2>
+  <div class="item">
+    <b>A. Blyberg</b>, M. Insolia, A. Ashmore, &ldquo;Phases of Quantum <i>D<sub>N</sub></i> Theories via
+    Neural Quantum States,&rdquo; poster, Skidmore Faculty-Student Summer Research Program Symposium,
+    Saratoga Springs, NY, July 2026.
+    <a href="files/blyberg-2026-dn-nqs-poster.pdf">[PDF]</a>
+  </div>
+
+  <h2>Projects</h2>
+  <div class="item">
+    <div class="item-title"><a href="https://github.com/Freblyhet/Wave-Simulator">Wave Simulator</a></div>
+    <div class="meta">C++, OpenGL</div>
+    Real-time 2D wave-equation solver with interactive sources, walls, and classic presets (double slit, ripple tank).
+  </div>
+  <div class="item">
+    <div class="item-title"><a href="https://github.com/Freblyhet/Particle-Life">Particle Life</a></div>
+    <div class="meta">C++17, OpenGL, OpenMP</div>
+    Multi-threaded particle simulation in which simple pairwise attraction rules produce emergent structure.
+  </div>
+  <div class="item">
+    <div class="item-title">8-Bit Breadboard Computer</div>
+    <div class="meta">Ongoing, independent study Spring 2027</div>
+    An 8-bit computer built from discrete logic ICs on breadboards.
+  </div>
+  <div class="item">
+    <div class="item-title">B-minor Compiler</div>
+    <div class="meta">CS330 Programming Languages and Compilers, Spring 2026</div>
+    Compiler for a C-like language: lexing, parsing, type checking, and code generation.
+  </div>
+
+  <footer>Last updated November 2026</footer>
+</main>
+</body>
+</html>
